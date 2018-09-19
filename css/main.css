@@ -1,0 +1,261 @@
+/* base styles*/
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #2b2b2b;
+    }
+        
+    #portfolio {
+      height: 1400px;
+    }
+
+    #about {
+        height: 650px;
+    }
+
+    #contact {
+        height: 500px;
+    }
+
+    .standard-size {
+        height: 350px;
+        width: 550px;
+    }
+
+    .smaller-size {
+        height: 300px;
+        width: 230px;
+    }
+
+    .title {
+        text-decoration: underline;
+    }
+
+/* grid */
+
+.parent {
+    display: flex;
+    width: 1200px;
+    flex-flow: row wrap;
+}
+
+.left, .right {
+    width: 560px;
+    height: 400px;
+    justify-content: center;
+     
+  }
+
+  main {
+    margin: 0 auto;
+  }
+
+.left {
+    padding-left: 30px;
+    margin: 0 auto;
+
+}
+
+.right {
+    padding-left: 8px;
+    margin: 0 auto;
+
+}
+
+/* header */
+
+header {
+    background: lightgray;
+    height: 800px;
+    background-size: cover;
+    background-image: url("../img/abel-grimmer-month-of-february-cropped.jpg");
+    
+  }
+  
+  header h1 { 
+    font-family: 'Lora', serif;
+    font-size: 60px;
+    color: darkblue;
+    text-align: left;
+    text-indent: 170px;
+    padding-top: 170px;
+    margin-bottom: 0px;
+  }
+  
+  
+  header h2 {
+    font-family: 'Lora' serif;
+    font-size: 40px;
+    text-align: left;
+    text-indent: 200px;
+    color: darkblue;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0 auto 0 auto;
+  }
+
+ 
+  
+  
+  /** Portfolio **/
+
+  #portfolio .parent {
+    padding: 80px 0;
+  }
+
+  #portfolio h3 {
+      font-family: 'Lora', serif;
+      font-size: 36px;
+      text-align: center;
+      padding: 20px;
+  }
+  
+ 
+
+#portfolio p {
+    font-size: 18px;
+    color: #7F7F7F;
+    line-height: 36px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 2px;
+    padding-bottom: 8px;
+    margin-top: 2px;
+}
+
+
+/** About **/
+#about {
+    background-color: lightseagreen;
+    margin-bottom: 0px;
+    padding-top: 20px;
+}
+
+#about h3 {
+    font-family: 'Lora', serif;
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+#about h4 {
+    font-family: 'Lora', serif;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+#about p {
+    font-size: 21px;
+    line-height: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+/****** CONTACT ******/
+
+#contact {
+    background-color: lightsteelblue;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+#contact h3 {
+    font-family: 'Lora', serif;
+    font-size: 32px;
+    text-align: center;
+    padding: 60px;
+    margin-bottom: 0px;
+}
+
+#contact h4 {
+    font-family: 'Lora', serif;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+#contact p {
+    font-size: 21px;
+    color: #7F7F7F;
+    text-align: center;
+    margin-top: 0px;
+}
+
+#contact ul {
+    list-style: none;
+    margin-left: 120px;
+  }
+  #contact ul li {
+     display: inline-block;
+  }
+  #contact ul img {
+    font-size: 32px;
+    padding-right: 48px;
+    text-align: center;
+  }
+
+  #contact .left img {
+      margin-left: 100px;
+      padding: 0 40px 40px 40px;
+  }
+
+/**
+#contact {
+    background: #ebebeb;
+  
+  }
+  
+  #contact .full-width {
+    padding: 110px 0;
+  
+  }
+  
+  #contact img#contact-img {
+    margin-left: 25px;
+    border: 12px solid #ffffff; 
+  }
+  
+  #contact h2, #email-contact, #social-media-contact, #contact ul {
+    padding-left: 115px;
+  
+  }
+  
+  #contact #letter {
+    padding: 0 10px 0 115px;
+  }
+  
+  #contact h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    line-height: 44px;
+  }
+  
+  #contact #email {
+    text-decoration: none;
+    color: #c49075;
+    font-weight: bold;
+    font-size: 28px;
+  }
+
+  #contact #email-contact{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    margin: -30px 0 5px 0;
+  }
+  
+  #contact #social-media-contact {
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 44px;
+    margin: 40px 0 0 0;
+  }
+ 
+  
+  
